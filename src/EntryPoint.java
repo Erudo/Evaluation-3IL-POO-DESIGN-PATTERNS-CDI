@@ -26,15 +26,15 @@ public class EntryPoint {
                 // contrôle de la saisie
                 switch(functionToRun) {
                     case 1:
-                        // TODO lister les élèves
+                        // TODO FS1 : lister les élèves
                         System.out.println("Voici la liste des élèves");
                         break;
                     case 2:
-                        // TODO lister les enseignants
+                        // TODO FS2 :lister les enseignants
                         System.out.println("Voici la liste des enseignants");
                         break;
                     case 3:
-                        // TODO Donner un cours
+                        // TODO FP1 : Donner un cours
                         System.out.println("C'est parti pour un cours!");
                         break;
                     case 4:
