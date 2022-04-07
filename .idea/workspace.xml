@@ -60,6 +60,7 @@
         <option value="$PROJECT_DIR$/src/Console.java" />
         <option value="$PROJECT_DIR$/src/NamesGenerator.java" />
         <option value="$PROJECT_DIR$/src/EntryPoint.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -160,7 +161,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6053000" />
+    <option name="totallyTimeSpent" value="6178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
