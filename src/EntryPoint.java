@@ -1,16 +1,14 @@
-import java.util.Scanner;
-
 /**
  * @author Adrien HAUTOT (adrien.hautot@erudo.fr)
  */
 public class EntryPoint {
 
     public static void main(String[] args) {
-        // configurez ici votre école :
-        // - Instantiation de vos classes (école, enseignants, élèves...)
+        // configurez ici votre CDI :
+        // - Instantiation de vos classes (CDI, livres, élèves...)
         // - Le programme est déjà pré écrit, il ne reste qu'à compléter les TODO
 
-        System.out.println("/_\\ Bienvenue sur 3IL manager!");
+        System.out.println("/_\\ Bienvenue sur 3IL CDI manager!");
 
         // la Console permet de faciliter la récupération d'une saisie de l'utilisateur dans la console
         Console console = new Console();
@@ -18,8 +16,8 @@ public class EntryPoint {
         do {
             System.out.println("Qu'est-ce que tu veux faire?");
             System.out.println("1 - Lister les élèves");
-            System.out.println("2 - Lister les enseignants");
-            System.out.println("3 - Donner un cours");
+            System.out.println("2 - Lister les livres non rendus");
+            System.out.println("3 - Emprunter un livre");
             System.out.println("4 - J'ai fini");
 
             functionToRun = console.captureInt(1, 4);
@@ -30,12 +28,12 @@ public class EntryPoint {
                         System.out.println("Voici la liste des élèves");
                         break;
                     case 2:
-                        // TODO FS2 :lister les enseignants
-                        System.out.println("Voici la liste des enseignants");
+                        // TODO FS2 :lister les livres non rendus
+                        System.out.println("Voici la liste des livres non rendus");
                         break;
                     case 3:
-                        // TODO FP1 : Donner un cours
-                        System.out.println("C'est parti pour un cours!");
+                        // TODO FP1 : Emprunter un livre
+                        System.out.println("C'est parti pour la lecture!");
                         break;
                     case 4:
                         System.out.println("A la prochaine!");
